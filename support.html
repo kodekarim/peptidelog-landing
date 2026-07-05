@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Peptide Log Support — get help with the private GLP-1 injection tracker.">
+  <title>Support — Peptide Log</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(165deg, #0F172A 0%, #1E293B 100%);
+      color: #F8FAFC;
+      line-height: 1.7;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 4rem;
+    }
+
+    a { color: #4ADE80; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .back {
+      display: inline-block;
+      font-size: 0.875rem;
+      color: #94A3B8;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+
+    .intro {
+      color: #94A3B8;
+      font-size: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      margin: 2rem 0 0.75rem;
+    }
+
+    p, li {
+      color: #94A3B8;
+      font-size: 0.9375rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .faq-item {
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .faq-item h3 {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: #F8FAFC;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-card {
+      background: rgba(74, 222, 128, 0.08);
+      border: 1px solid rgba(74, 222, 128, 0.25);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .contact-card p { margin-bottom: 0.5rem; }
+
+    .contact-email {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #4ADE80;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(148, 163, 184, 0.15);
+      font-size: 0.8125rem;
+      color: #64748B;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back">&larr; Back to Peptide Log</a>
+
+    <h1>Support</h1>
+    <p class="intro">Peptide Log is a solo-dev project. I read every email and respond as quickly as I can — usually within 48 hours.</p>
+
+    <h2>Frequently asked questions</h2>
+
+    <article class="faq-item">
+      <h3>Is my data stored on your servers?</h3>
+      <p>No. By default, everything stays on your iPhone. If you turn on iCloud Sync in Settings, your data syncs to your own private iCloud account — never to our servers.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Do I need an account?</h3>
+      <p>No account required. Open the app and start logging.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>How do I export data for my doctor?</h3>
+      <p>Go to Settings &rarr; Export for doctor. Choose PDF or CSV and share via the iOS share sheet.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>How do I delete all my data?</h3>
+      <p>Settings &rarr; Delete All Data. This removes everything stored locally on your device. If iCloud Sync is on, you may also want to check your iCloud storage settings.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Is Peptide Log medical advice?</h3>
+      <p>No. Peptide Log is a logging tool only. It does not provide medical advice, dosing recommendations, or diagnoses. Always follow your healthcare provider's guidance.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>How do I join the beta?</h3>
+      <p>Sign up on the <a href="index.html">homepage</a> with your email. Beta testers get early access and lifetime free access to future premium features.</p>
+    </article>
+
+    <div class="contact-card">
+      <p>Still need help?</p>
+      <a href="mailto:support@peptidelog.app" class="contact-email">support@peptidelog.app</a>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Peptide Log &middot; <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+  </div>
+</body>
+</html>
